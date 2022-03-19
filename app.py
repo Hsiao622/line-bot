@@ -39,7 +39,7 @@ def handle_message(event):
     msg = event.message.text
     r = '很抱歉，您說什麼'
 
-    if msg == ['hi', 'Hi']:
+    if msg in ['hi', 'Hi']:
         r = '安安'
     elif msg == '你吃飯了嗎':
         r = '還沒'
